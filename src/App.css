@@ -1,10 +1,8 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+  background-color: black;
+  color: white;
+  min-height: 100vh;
 }
 
 .App-header {
@@ -21,8 +19,45 @@
 .App-intro {
   font-size: large;
 }
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.links{
+  text-align: left;
+}
+.user-container{
+  display: inline-block;
+  height: 20vh;
+  width: 18vw;
+  border-radius: 5%;
+  margin: 2vh;
+}
+.text-container{
+  color: black;
+  line-height: 20vh;
+  text-decoration: none;
+}
+.movie-container{
+  display: inline-block;
+  height: 40vh;
+  width: 25vw;
+  margin: 2vh;
+}
+.movie-img{
+  float: left;
+  height: 100%;
+  width: 90%;
+  border-radius: 5%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.logo{
+  text-align: right;
+  color: rgb(119, 119, 190);
+  font-size: 25px;
+  font-weight: 900;
+}
+.add-remove-button{
+  float: right;
+  color: whitesmoke;
+  background-color: black;
+  font-size: 25px;
+  font-weight: 900;
 }
